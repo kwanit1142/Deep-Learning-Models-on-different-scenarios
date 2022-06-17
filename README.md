@@ -50,6 +50,30 @@ c.) How the presence of one or more fully connected layers changes the accuracy.
 
 d.) Change the stride size from 1 to 2 and find the differences in the output size.
 
+### References
+
+For Q-1 :-
+
+● https://github.com/jiexunsee/Adam-Optimizer-from-scratch/blob/master/adamoptimizer.py
+
+● https://towardsdatascience.com/the-ultimate-beginners-guide-to-implement-a-neural-network-from-scratch-cf7d52d91e00
+
+For Q-2 :-
+
+● https://www.geeksforgeeks.org/implementing-an-autoencoder-inpytorch/
+
+● https://ai.plainenglish.io/denoising-autoencoder-in-pytorch-on-mnist-dataset-a76b8824e57e
+
+● https://gist.github.com/kdubovikov/eb2a4c3ecadd5295f68c126542e59f0a
+
+● https://nextjournal.com/gkoehler/pytorch-mnist
+
+For Q-3 :-
+
+● https://shonit2096.medium.com/cnn-on-cifar10-data-set-using-pytorch-34be87e09844
+
+● https://pytorch.org/docs/stable/index.html
+
 ## Lab-2 (DenseNet Fine Tuning, ResNet+SVM and CNN)
 
 Question-1:
@@ -92,6 +116,36 @@ iv.) Mini Batch with Adam
 b.) What are your preferred mini-batch sizes? Explain your choice with proper gradient update plots.
 
 c.) What are the advantages of shuffling and partitioning the mini-batches? 
+
+### References
+
+Question-1 :-
+
+https://jimmy-shen.medium.com/pytorch-freeze-part-of-the-layers-4554105e03a6#:~:text=In%20PyTorch%20we%20can%20freeze,to%20apply%20a%20pretrained%20model.
+
+https://gist.github.com/L0SG/2f6d81e4ad119c4f798ab81fa8d62d3f
+
+https://blog.ineuron.ai/AUC-ROC-score-and-curve-in-multiclass-classification-problems-2ja4jOHb2X
+
+https://github.com/pytorch/vision/issues/48
+
+StackOverflow and Pytorch Documentations
+
+Question-2 :-
+
+https://github.com/KaiyangZhou/pytorch-center-loss
+
+https://medium.com/the-owl/extracting-features-from-an-intermediate-layer-of-a-pretrained-model-in-pytorch-c00589bda32b
+
+StackOverflow Documentations
+
+Question-3 :-
+
+https://github.com/amitrajitbose/cat-v-dog-classifier-pytorch/blob/master/train.py
+
+https://towardsdatascience.com/understanding-pytorch-with-an-example-a-step-by-step-tutorial-81fc5f8c4e8e
+
+StackOverflow and Geeks-For-Geeks Documentations
 
 ## Lab-3 and 4 (DCGANs, Few-Shot Learning and Darts)
 
@@ -136,3 +190,4 @@ Question-4:
 Reproduce the results of the paper “DARTS: Differentiable Architecture Search” only on CIFAR-10 dataset. You can use the authors’ code (mostly provided via GitHub) or any other reimplementation available on the internet. [Please cite the source].
 
 You should be able to understand and explain the code that you are using. Write a 2 page report explaining the algorithm and your analysis based on your results. 
+
