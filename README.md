@@ -6,6 +6,8 @@ These Notebooks with their Question Statement and Reports, came under the course
 
 Question-1:
 
+![0__SH7tsNDTkGXWtZb](https://user-images.githubusercontent.com/54277039/175081252-51d62fa1-fad4-4b68-ab28-9b2e9a6bb81b.png)
+
 Implement back propagation neural network from scratch on Letter Recognition dataset with following configurations:-
 
 a.) Vary learning rate
@@ -22,6 +24,8 @@ Use cross-entropy loss. Plot the loss and accuracy curves on the training and te
 
 Question-2:
 
+![0_qgxeODdkcdMIfR--](https://user-images.githubusercontent.com/54277039/175081589-3dae5b5a-7f0b-4074-8c10-855023d4c1be.png)
+
 Implement a Denoising Autoencoder using three encoding and three decoding layers on the MNIST dataset for construction and reconstruction of the image. Use MSE as the loss function:-
 
 a.) Use 1 FC layer and 2 different activation functions of your choice for 10-class classification
@@ -31,6 +35,8 @@ b.) Use 3 FC layers and 2 different activation functions of your choice for 10-c
 c.) Compare the performance between 1 FC and 3 FC layer results and report the accuracy on test set and plot loss curves on training and test dataset
 
 Question-3:
+
+![1_uAeANQIOQPqWZnnuH-VEyw](https://user-images.githubusercontent.com/54277039/175081765-4ce3606e-d540-4337-9916-faaae135afe0.jpg)
 
 Construct following CNN architectures. Use the CIFAR-10 dataset for all the analysis:-
 
@@ -80,6 +86,8 @@ Question-1:
 
 Download a ResNet 50 trained on the ImageNet classification dataset:-
 
+![ResNet-50-convolutional-neural-networks-with-SVM-ResNet-50-convolutional-neural](https://user-images.githubusercontent.com/54277039/175081989-35efebc7-255d-489d-a43d-1fa57939098d.png)
+
 a.) Use the features extracted from the last fully-connected layer and train a multiclass SVM
 classifier on STL-10 dataset. Report the following:- 
 i.) Accuracy, Confusion Matrix on test data. 
@@ -93,6 +101,8 @@ ii.) Report Confusion Matrix.
 
 Question-2:
 
+![Tiny_ImageNet-0000001404-a53923c3_XCrVSGm](https://user-images.githubusercontent.com/54277039/175083057-36b54b51-b7c3-4b05-a01a-b055c7194df9.jpg)
+
 Download the Tiny ImageNet dataset from here and pick the first 50 classes from 200 of them. Finetune ResNet-18 with the following:-
 
 a.) Cross-Entropy as the final classification loss function 
@@ -104,6 +114,8 @@ c.) Triplet Loss as the final classification loss function
 Choose any evaluation metrics (at least 3) and compare the models in a, b and c, comment on which one is better and why?
 
 Question-3:
+
+![1_-_2dKCQHh_-_Long_Valley](https://user-images.githubusercontent.com/54277039/175083627-5849e392-4972-4655-987c-84a32e0b03f2.gif)
 
 Implement a three-layer CNN network, for classification tasks for the Dogs vs. Cats dataset. [You can use the necessary libraries/modules]
 
@@ -151,6 +163,8 @@ StackOverflow and Geeks-For-Geeks Documentations
 
 Question-1:
 
+![download](https://user-images.githubusercontent.com/54277039/175083875-83a5603d-9035-460d-aaa4-4d6c54b83c56.png)
+
 Train a DCGAN to generate images from noise. Use the MNIST database to learn the GAN Network.
 
 Discriminator in DCGAN:-
@@ -171,11 +185,15 @@ c.) Do we have control of what class image the generator will generate, given a 
 
 Question-2:
 
+![download](https://user-images.githubusercontent.com/54277039/175084045-7aa07dc3-b786-4ce7-a976-cbb55ea27488.jpg)
+
 Reproduce the results of the paper “Prototypical Networks for Few-shot Learning”. You can use the authors’ code (mostly provided via GitHub) or any other reimplementation available on the internet. [Please cite the source].
 
 You should be able to understand and explain the code that you are using. Write a 2 page report explaining the algorithm and your analysis based on your results. 
 
 Question-3:
+
+![42405_2021_396_Fig1_HTML](https://user-images.githubusercontent.com/54277039/175084229-b55f370b-7a9a-46f6-b680-295d4956aed4.png)
 
 Your task is to train a GAN that generates maps given satellite images. 
 
@@ -186,6 +204,8 @@ b.) Plot generator and discriminator losses for all the iterations. [One iterati
 c.) Use the pre-trained sat2map generator modeland generate images for the same ten examples in (a). Compare and comment on the images generated with a pre-trained generator with your trained generator in (a). Support your claim with SSIM. 
 
 Question-4:
+
+![download](https://user-images.githubusercontent.com/54277039/175084515-88268860-005c-43fa-9bd1-843273e3e977.png)
 
 Reproduce the results of the paper “DARTS: Differentiable Architecture Search” only on CIFAR-10 dataset. You can use the authors’ code (mostly provided via GitHub) or any other reimplementation available on the internet. [Please cite the source].
 
